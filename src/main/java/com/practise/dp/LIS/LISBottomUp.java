@@ -1,4 +1,4 @@
-package com.practise.dp;
+package com.practise.dp.LIS;
 
 import java.math.BigInteger;
 
