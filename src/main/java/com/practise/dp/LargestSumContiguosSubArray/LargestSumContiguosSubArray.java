@@ -1,4 +1,4 @@
-package LargestSumContiguosSubArray;
+package com.practise.dp.LargestSumContiguosSubArray;
 
 import java.math.BigInteger;
 
@@ -30,7 +30,7 @@ public class LargestSumContiguosSubArray {
 
         }
 
-        System.out.println(" LargestSumContiguosSubArray starts and ends with index - "+startIndex+" , "+endIndex);
+        System.out.println(" com.practise.dp.LargestSumContiguosSubArray starts and ends with index - "+startIndex+" , "+endIndex);
 
         return max_so_far;
     }
@@ -42,6 +42,6 @@ public class LargestSumContiguosSubArray {
         BigInteger[] input={new BigInteger("-2"),new BigInteger("-3"),new BigInteger("4"),new BigInteger("-1"),new BigInteger("-2"),new BigInteger("1"),new BigInteger("5"),new BigInteger("-3")};
 
         BigInteger result=calculate(input);
-        System.out.println(" Max sum of LargestSumContiguosSubArray -  "+result);
+        System.out.println(" Max sum of com.practise.dp.LargestSumContiguosSubArray -  "+result);
     }
 }
